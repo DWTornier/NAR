@@ -3,10 +3,10 @@ Network Automatic Reconnector
 
 Ref: https://blog.alx962.eu.org/?p=496  
 ## Features
-**1.Running in the background:** The program runs in the background without interruption.  
+**1. Running in the background:** The program runs in the background without interruption.  
 **2. Device Status Check:** Automatically checks if the specified network device is enabled. If not, the script attempts to enable it.
 **3. Service Status Check:** Checks the status of specific network-related services and ensures they are running. If a service is stopped, the script attempts to start it.  
-**4.Automatic Network Login:** The script attempts to automatically log in to the network when a disconnection is detected.  
+**4. Automatic Network Login:** The script attempts to automatically log in to the network when a disconnection is detected.  
 **5. Notifications:** Provides notifications to the user when a manual intervention is required after an automatic attempt fails.
 ## Installation & Usage
 1. Make sure your OS is Windows 10 and Python is installed: https://www.python.org/downloads/
