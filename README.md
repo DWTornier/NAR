@@ -4,7 +4,7 @@ Network Automatic Reconnector
 Ref: https://blog.alx962.eu.org/?p=496  
 ## Features
 **1. Running in the background:** The program runs in the background without interruption.  
-**2. Device Status Check:** Automatically checks if the specified network device is enabled. If not, the script attempts to enable it.  
+**2. Device Status Check:** Automatically checks if the specified network device is enabled. If not, the script attempts to enable it.
 **3. Service Status Check:** Checks the status of specific network-related services and ensures they are running. If a service is stopped, the script attempts to start it.  
 **4. Automatic Network Login:** The script attempts to automatically log in to the network when a disconnection is detected.  
 **5. Notifications:** Provides notifications to the user when a manual intervention is required after an automatic attempt fails.
@@ -46,8 +46,12 @@ Ref: https://blog.alx962.eu.org/?p=496
    #Service names on your computer, generally no modification is required.
    service1 = WlanSvc
    service2 = dot3svc
+   
+   [Login_Headers]
+   # Please modify the login headers, which are all different, depends on your operator, no need to worry.
+   User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 
-   [Login]   
+   [Login_Info]   
    # Please modify the login form information, which are all different, depends on your operator, no need to worry.
    # [required]Change the URL here to your actual authentication URL.
    url = http://xxx.xxx.xxx.xxx/ 
