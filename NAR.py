@@ -110,7 +110,7 @@ class OperationManager:
         if check_device_status_flag:
             it = iter(devices)
             for index in it:
-                deviceManager.toggle_device("disable",devcon_path,index)
+                deviceManager.toggle_device("disable",devcon_path,index)#Force restart the device
                 deviceManager.toggle_device("enable",devcon_path,index)
                 self.optLog("[Device]Device {0} restarted.".format(index))
     
