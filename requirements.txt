@@ -1,0 +1,4 @@
+requests==2.26.0
+win10toast==0.9
+pyuac==0.0.3
+pypiwin32
